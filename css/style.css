@@ -1,0 +1,43 @@
+body {
+  background-color: lightpink;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: pacifico;
+}
+
+p {
+  font-family: pacifico;
+  font-size: 20px;
+}
+
+#banner {
+  width: 100%;
+  height: 250px;
+  background-image: url("../strawberry.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner h1{
+  font-size: 50px;
+  text-shadow: 2px 2px 8px black;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.image-row img {
+  width: 400px;
+  border-radius: 0px;
+}
